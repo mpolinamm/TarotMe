@@ -1,0 +1,15 @@
+body {
+    background: radial-gradient(circle at top, #2b0033, #0b0011);
+    font-family: 'Cinzel Decorative', cursive;
+  }
+  
+  .reversed {
+    transform: rotate(180deg);
+    opacity: 0.85;
+    transition: transform 0.8s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
