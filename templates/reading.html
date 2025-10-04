@@ -1,4 +1,4 @@
-# show cards + AI explenation
+# show cards + AI explanation
 {% extends "base.html" %}
 {% block content %}
 <h2>Your Tarot Reading</h2>
@@ -7,12 +7,12 @@
     {% for card in cards %}
     <div class="card bg-dark border-light" style="width: 12rem;">
         <img src="{{ url_for('static', filename='images/cards/' + card.image) }}"
-             class="card-img-top {% if card.reversed %}reversed{% endif %}"
+             class="card-img-top"
              alt="{{ card.name }}">
         <div class="card-body">
             <h5 class="card-title">{{ card.name }}</h5>
             <p class="card-text">
-                {{ card.upright if not card.reversed else card.reversed }}
+                {{ card.upright }}
             </p>
         </div>
     </div>
