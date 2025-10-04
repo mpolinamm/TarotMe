@@ -1,1 +1,28 @@
 # show cards + AI explenation
+{% extends "base.html" %}
+{% block content %}
+<h2>Your Tarot Reading</h2>
+
+<div class="d-flex justify-content-center gap-4 flex-wrap mt-4">
+    {% for card in cards %}
+    <div class="card bg-dark border-light" style="width: 12rem;">
+        <img src="{{ url_for('static', filename='images/cards/' + card.image) }}"
+             class="card-img-top {% if card.reversed %}reversed{% endif %}"
+             alt="{{ card.name }}">
+        <div class="card-body">
+            <h5 class="card-title">{{ card.name }}</h5>
+            <p class="card-text">
+                {{ card.upright if not card.reversed else card.reversed }}
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="mt-5 p-4 bg-secondary bg-opacity-25 rounded-3">
+    <h4>AI Interpretation</h4>
+    <p class="fst-italic">{{ ai_reading }}</p>
+</div>
+
+<a href="{{ url_for('draw_cards') }}" class="btn btn-secondary mt-4">Draw Again</a>
+{% endblock %}
