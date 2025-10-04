@@ -27,3 +27,26 @@
   </div>
   <p class="mt-3">Consulting the mystical forces...</p>
 </div>
+
+<!-- AI Reading Section -->
+<div id="reading-result" class="mt-5 p-4 bg-secondary bg-opacity-25 rounded-3 d-none">
+  <h4>AI Interpretation</h4>
+  <p class="fst-italic">{{ ai_reading }}</p>
+</div>
+
+<a href="{{ url_for('draw_cards') }}" class="btn btn-secondary mt-4">Draw Again</a>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Simulate a short delay to show the spinner until page fully loads
+    const loading = document.getElementById("loading-overlay");
+    const result = document.getElementById("reading-result");
+
+    // Wait 1 second (for smoother visual), then show result
+    setTimeout(() => {
+      loading.style.display = "none";
+      result.classList.remove("d-none");
+    }, 1000);
+  });
+</script>
+{% endblock %}
