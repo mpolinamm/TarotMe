@@ -8,58 +8,47 @@
 
 https://www.canva.com/design/DAG02Po3yf0/NrrNZO2zqfZrgX25MuWtaA/edit?utm_content=DAG02Po3yf0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-# TarotMe
+# TarotMe — AI-Powered Tarot Reading App
 
-**TarotMe** is a Flask-based web app that draws 3 random tarot cards and uses AI to generate personalized explanations of the reading. 
-The site features an interactive card spread with visual representations of tarot cards (face-down before selection, face-up when revealed).
+A modern Flask-based web application that combines traditional tarot wisdom with AI-generated interpretations. Draw cards, explore their meanings, and gain personalized insights through an intuitive, mystical interface.
 
-**TarotMe** lets you explore tarot readings in a fun and interactive way. Just draw three cards, flip them over, and get an AI-generated explanation of what your cards might mean for you. 
-This app gives you the chance to ask about the questions that matter to you, receive a daily prediction, or simply enjoy exploring the world of tarot. 
-Each reading is unique, offering fresh insights every time you try. Even if you’re new to tarot, the app makes it simple and engaging to discover the symbolism behind your cards.
+## Features
 
+### 🔮 Three-Card Reading (Past–Present–Future)
+Draw three cards to explore your journey. Each card reveals AI-generated interpretations tailored to your question.
 
- Mystic Tarot Reader — Your AI-Powered Gateway to the Cards
+### ➕ Extended Readings
+Add more cards to dive deeper into specific areas like love, career, or personal growth.
 
-Mystic Tarot Reader is a modern web app that blends timeless tarot wisdom with the power of AI. Designed for both curious beginners and experienced tarot enthusiasts, it offers intuitive readings, beautiful visuals, and insightful interpretations that adapt to your journey.
+### 🌅 Card of the Day
+Start your morning with a single card draw for daily guidance and inspiration.
 
- What the App Offers
+### 💜 Love Reading
+A dedicated reading mode focused on relationships, emotions, and romantic connections.
 
-	Three-Card Reading (Past–Present–Future)
-Draw three cards to uncover the path you’ve walked, where you stand, and what lies ahead. Each card is accompanied by a poetic, AI-generated interpretation.
+### ✨ Soulmate Description
+Get an AI-generated, personalized portrait of your soulmate's energy and traits.
 
-	Add More Cards
-Go deeper into your reading by adding additional cards to explore specific aspects — love, career, self-growth, or spiritual guidance.
+## User Experience
 
-	Card of the Day
-Start each morning with a single draw that sets the tone and offers gentle guidance for your day.
+- **Visual Design**: Mystical interface with deep violet backgrounds, glowing text, and classic Rider-Waite tarot imagery
+- **Interactive Cards**: Cards appear face-down, then flip to reveal their meaning
+- **Smooth Navigation**: Easy switching between reading modes via main menu or sidebar
+- **Responsive Layout**: Works seamlessly on desktop and mobile devices
 
-	Love Reading 
-A dedicated mode focused on emotional and romantic energies — perfect for those wondering about compatibility, relationships, or upcoming connections.
+## Notifications
 
-Soulmate Description 
-An AI-driven, personalized feature that paints an intuitive picture of your soulmate’s energy, traits, and the connection that awaits.
+- **Mobile**: Push notifications for daily card readings
+- **Web**: Email notifications for daily draws
 
-	Interface and Experience
+## Who Is This For?
 
-The app features a minimalistic, mystical interface — deep violet backgrounds, glowing text, and classic Rider–Waite tarot imagery.
-Users simply ask their question, press “Draw Cards”, and receive a clear visual layout of the cards with an AI interpretation panel below.
+- Tarot beginners seeking easy, guided insights
+- Experienced readers exploring new interpretations
+- Anyone interested in daily inspiration, self-discovery, or spiritual guidance
+- People curious about love, relationships, and fate
 
-Smooth transitions, a responsive layout, and an intuitive “Draw Again” button make it effortless to explore multiple readings. Each feature (love reading, card of the day, soulmate) will be accessible from a clean main menu or sidebar, allowing users to switch between reading modes easily.
+---
 
-	Who It’s For
+**Get started by asking your question, drawing your cards, and let the wisdom unfold.**
 
-Mystic Tarot Reader is perfect for:
-
-Anyone seeking clarity or daily inspiration
-
-Tarot beginners who want easy, AI-guided insights
-
-Experienced readers curious about new interpretations
-
-People interested in love, fate, or self-discovery
-
-Communication with user :
-	- for daily card may be notifications(if used on a phone)
-	- email notifications if used in web 
-	
-Gay people (SLAYYYY)
